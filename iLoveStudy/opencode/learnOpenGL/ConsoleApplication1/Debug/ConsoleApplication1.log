@@ -1,0 +1,24 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (ConsoleApplication1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  正在跳过...(未检测到相关更改)
+  Texture.cpp
+  test.cpp
+  StaAfx.cpp
+  shangji222.cpp
+  shangji22.cpp
+  shangji21.cpp
+  secondColor.cpp
+  RobotCopy.cpp
+  planetRolateWithLight.cpp
+  planetRolateWithoutLight.cpp
+  mixCopyFromPPT.cpp
+  key.cpp
+  HeartLines.cpp
+  first180313.cpp
+  evolent.cpp
+  copySimianti2.cpp
+  copySimianti.cpp
+  copyCub.cpp
+  collision.cpp
+  BeautyBugFromLuYue.cpp
+  ConsoleApplication1.vcxproj -> D:\iLoveStudy\opencode\learnOpenGL\Debug\learnOpenGL.exe
+  ConsoleApplication1.vcxproj -> D:\iLoveStudy\opencode\learnOpenGL\Debug\learnOpenGL.pdb (Full PDB)
