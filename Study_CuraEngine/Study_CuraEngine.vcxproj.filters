@@ -14,4 +14,77 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="clipper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="settings.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="logoutput.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="modelFile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gcodeExport.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gettime.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="optimizedModel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="slicer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="polygonOptimizer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gcodeExport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="intpoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="clipper.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="floatpoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="logoutput.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="modelFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="gettime.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="optimizedModel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="slicer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="polygon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="polygonOptimizer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>

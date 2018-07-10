@@ -1,0 +1,27 @@
+﻿  main.cpp
+d:\study_curaengine\intpoint.h(71): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+d:\study_curaengine\intpoint.h(90): warning C4244: “return”: 从“float”转换到“int32_t”，可能丢失数据
+d:\study_curaengine\intpoint.h(173): warning C4244: “return”: 从“float”转换到“int32_t”，可能丢失数据
+d:\study_curaengine\intpoint.h(230): warning C4244: “=”: 从“const ClipperLib::long64”转换到“double”，可能丢失数据
+d:\study_curaengine\intpoint.h(231): warning C4244: “=”: 从“const ClipperLib::long64”转换到“double”，可能丢失数据
+d:\study_curaengine\intpoint.h(242): warning C4244: “参数”: 从“double”转换到“ClipperLib::long64”，可能丢失数据
+d:\study_curaengine\intpoint.h(248): warning C4244: “参数”: 从“double”转换到“ClipperLib::long64”，可能丢失数据
+d:\study_curaengine\floatpoint.h(84): warning C4244: “参数”: 从“double”转换到“const int32_t”，可能丢失数据
+d:\study_curaengine\optimizedmodel.h(19): warning C4005: “_CRT_SECURE_NO_WARNINGS”: 宏重定义
+  d:\study_curaengine\optimizedmodel.h(19): note: 命令行参数: 参见前面的“_CRT_SECURE_NO_WARNINGS”定义
+d:\study_curaengine\polygon.h(156): warning C4244: “初始化”: 从“ClipperLib::long64”转换到“double”，可能丢失数据
+d:\study_curaengine\polygon.h(172): warning C4244: “参数”: 从“double”转换到“ClipperLib::long64”，可能丢失数据
+d:\study_curaengine\main.cpp(67): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+  gcodeExport.cpp
+d:\study_curaengine\intpoint.h(71): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+d:\study_curaengine\intpoint.h(90): warning C4244: “return”: 从“float”转换到“int32_t”，可能丢失数据
+d:\study_curaengine\intpoint.h(173): warning C4244: “return”: 从“float”转换到“int32_t”，可能丢失数据
+d:\study_curaengine\intpoint.h(230): warning C4244: “=”: 从“const ClipperLib::long64”转换到“double”，可能丢失数据
+d:\study_curaengine\intpoint.h(231): warning C4244: “=”: 从“const ClipperLib::long64”转换到“double”，可能丢失数据
+d:\study_curaengine\intpoint.h(242): warning C4244: “参数”: 从“double”转换到“ClipperLib::long64”，可能丢失数据
+d:\study_curaengine\intpoint.h(248): warning C4244: “参数”: 从“double”转换到“ClipperLib::long64”，可能丢失数据
+d:\study_curaengine\floatpoint.h(84): warning C4244: “参数”: 从“double”转换到“const int32_t”，可能丢失数据
+d:\study_curaengine\gcodeexport.cpp(212): warning C4244: “参数”: 从“ClipperLib::long64”转换到“const int32_t”，可能丢失数据
+  正在生成代码...
+  Study_CuraEngine.vcxproj -> D:\Study_CuraEngine\Debug\Study_CuraEngine.exe
+  Study_CuraEngine.vcxproj -> D:\Study_CuraEngine\Debug\Study_CuraEngine.pdb (Full PDB)

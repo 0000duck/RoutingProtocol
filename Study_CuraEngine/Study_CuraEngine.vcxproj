@@ -87,7 +87,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
     </ClCompile>
     <Link>
@@ -117,7 +117,7 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
     </ClCompile>
     <Link>
@@ -146,6 +146,31 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="clipper.cpp" />
+    <ClCompile Include="gcodeExport.cpp" />
+    <ClCompile Include="gettime.cpp" />
+    <ClCompile Include="logoutput.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="modelFile.cpp" />
+    <ClCompile Include="optimizedModel.cpp" />
+    <ClCompile Include="polygonOptimizer.cpp" />
+    <ClCompile Include="settings.cpp" />
+    <ClCompile Include="slicer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="clipper.hpp" />
+    <ClInclude Include="floatpoint.h" />
+    <ClInclude Include="gcodeExport.h" />
+    <ClInclude Include="gettime.h" />
+    <ClInclude Include="intpoint.h" />
+    <ClInclude Include="logoutput.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="modelFile.h" />
+    <ClInclude Include="optimizedModel.h" />
+    <ClInclude Include="polygon.h" />
+    <ClInclude Include="polygonOptimizer.h" />
+    <ClInclude Include="settings.h" />
+    <ClInclude Include="slicer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
