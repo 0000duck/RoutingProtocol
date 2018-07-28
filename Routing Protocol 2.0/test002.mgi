@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClassDiagram>
+    <CommunicationClass name="NodeClient" x="670" y="104"/>
+    <CommunicationClass name="Dist" x="179" y="288"/>
+    <CommunicationClass name="Node" x="174" y="218">
+        <Association destinationClassName="NodeClient"
+            endpointName="nodeClient" kind="Simple"/>
+        <Association destinationClassName="NodeServer"
+            endpointName="nodeServer" kind="Simple"/>
+    </CommunicationClass>
+    <CommunicationClass name="DataProcess" x="667" y="322">
+        <Communication destinationClassName="NodeClient"/>
+    </CommunicationClass>
+    <CommunicationClass name="NodeServer" x="324" y="103">
+        <Communication destinationClassName="NodeClient"/>
+        <Communication destinationClassName="AdjGraph"/>
+    </CommunicationClass>
+    <CommunicationClass name="AdjGraph" x="333" y="319"/>
+    <CommunicationClass name="Edge" x="173" y="145"/>
+</ClassDiagram>
